@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+    <h1 style="text-align: center;" id="style">Select which page you would like to go to</h1>
+    <br>
+    <p style="text-align: center;" id="normaltext" onclick="roots()">Roots</p>
+    <p style="text-align: center;" id="normaltext" onclick="powers()">Powers</p>
+    <p style="text-align: center;" id="normaltext" onclick="hcflcm()">hcf and lcm</p>
+
+    <script>
+        function roots(){
+            location = "./root.html"
+        }
+        function powers(){
+            location= "./powers.html"
+        }
+        function hcflcm(){
+            location= "./hfc-lcm.html"
+        }
+
+    </script>
+
+</body>
+</html>

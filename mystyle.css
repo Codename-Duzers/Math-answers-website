@@ -1,0 +1,17 @@
+@font-face {
+    font-family: lato;
+    src: url(./fonts/Lato-Bold.ttf);
+}
+@font-face {
+    font-family: latosm;
+    src: url(./fonts/Lato-Light.ttf);
+}
+
+#style {
+    font-family: lato;
+}
+
+#normaltext {
+    font-family: latosm;
+    font-size: 1.3vw;
+}
