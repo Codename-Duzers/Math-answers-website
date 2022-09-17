@@ -7,11 +7,21 @@
     src: url(./fonts/Lato-Light.ttf);
 }
 
-#style {
+.style {
     font-family: lato;
 }
 
-#normaltext {
+.normaltext {
     font-family: latosm;
     font-size: 1.3vw;
+}
+
+.BottomRight {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.imagesize {
+    width: 10vw;height: auto;
 }

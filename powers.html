@@ -6,13 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Powers Calculator</title>
     <script src="./javascript/power.js"></script>
+    <link rel="stylesheet" href="mystyle.css">
 </head>
 <body>
-   <label for="fname">Base: </label>
-   <input type="text" id="base" name="base"><br><br>
-   <label for="lname">Exponent:</label>
-   <input type="text" id="exponent" name="exponent"><br><br>
-   <button onclick="calculate()">Calculate result</button>
-   <p id="output"></p>
+   <div style="text-align: center;">
+
+    <h1 class="style">Calculate a power</h1>
+    <label for="fname" class="normaltext">Base: </label>
+   <input type="text" id="base" name="base" class="normaltext"><br><br>
+   <label for="lname" class="normaltext">Exponent:</label>
+   <input type="text" id="exponent" name="exponent" class="normaltext"><br><br>
+   <button onclick="calculate()" class="normaltext">Calculate result</button>
+   <p id="output" class="normaltext"></p>
+
+
+   </div>
+   <div class="BottomRight"><a href="https://github.com/Codename-Duzers/Math-answers-website"><img src="./images/github.png" alt="Github" class="imagesize"></a></div>
 </body>
 </html>
