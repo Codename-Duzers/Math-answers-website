@@ -6,7 +6,16 @@
     font-family: latosm;
     src: url(./fonts/Lato-Light.ttf);
 }
+@font-face {
+    font-family: boldno;
+    src: url(./fonts/Lato-Bold.ttf);
+}
 
+.normalbold{
+    font-family: boldno;
+    font-size: 1.3vw;
+
+}
 .style {
     font-family: lato;
 }
@@ -20,6 +29,11 @@
     position: fixed;
     bottom: 0;
     right: 0;
+}
+.BottomLeft {
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
 
 .imagesize {
