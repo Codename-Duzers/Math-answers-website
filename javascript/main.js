@@ -22,19 +22,22 @@ function calculate(){
 
     
 }
-console.log(hcf(15, 30))
+
 function hcf(a,b){
     if(a>b){
         [a,b] = [b,a]
     }
-    while(a != 0 && b != 0){
-        q = Math.floor(b/a);
-        r = b - q*a;
-        [r,a] = [a,b];
+    while(a!=0 && b!=0){
+        [a,b] = [a,b-a]    
+        if(a>b){
+            [a,b] = [b,a]
+        }
     }
-    return  Math.max(a,b);
+    console.log(a,b)
+    return Math.max(a,b);
 }
 
+console.log(hcf(30, 15))
 function oldsite(){
     location = "/oldsite/index.html"
 }
