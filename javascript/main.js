@@ -3,10 +3,12 @@ function calculate(){
     let lastone = document.getElementById("lastone").value
     const root = document.getElementById("rootout")
     const power = document.getElementById("powerout")
-    const lcmandhcf = document.getElementById("lcmhcf")
+    const hcm = document.getElementById("hcf")
+    const lcm = document.getElementById("lcm")
 
     root.innerHTML = "Root: " + nthroot(firstone, lastone)
     power.innerHTML = "Power: " + Math.pow(firstone, lastone)
+    hcm.innerHTML = "HCF: " + hcf(firstone, lastone)
     console.log(firstone, lastone)
 
     function nthroot(x, n){
