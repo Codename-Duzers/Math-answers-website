@@ -1,7 +1,10 @@
+const lm = document.getElementById("outputlm")
+const hcf = document.getElementById("outputhf")
 function calculate(){
     // Get value with document.getElementById("id").value
     
-    document.getElementById("output").innerHTML = "output answer"
+    hcf.innerHTML = "output answer hch"
+    lm.innerHTML = "output answer lcm"
 }
 
 
