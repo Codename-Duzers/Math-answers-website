@@ -3,6 +3,13 @@ function calculate(){
     // console.log(Math.pow(6, 2))
     let first = document.getElementById("fname").value;
     let second = document.getElementById("lname").value;
+    if(second == ""){
+      second = 2;
+    }
+    if(first == ""){
+      document.getElementById("output").innerHTML = "Please set a number on the first input"
+      return;
+    }
     document.getElementById("output").innerHTML = nthroot(first, second);
     
 }
