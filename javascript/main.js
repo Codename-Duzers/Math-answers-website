@@ -9,6 +9,7 @@ function calculate(){
     root.innerHTML = "Root: " + nthroot(firstone, lastone)
     power.innerHTML = "Power: " + Math.pow(firstone, lastone)
     hcm.innerHTML = "HCF: " + hcf(firstone, lastone)
+    lcm.innerHTML = "LCM: " + firstone*lastone/hcf(firstone,lastone);
     console.log(firstone, lastone)
 
     
