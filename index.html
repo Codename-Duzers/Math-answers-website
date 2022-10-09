@@ -6,28 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roots, Powers and hcf and lcm</title>
     <link rel="stylesheet" href="./mystyle.css">
+    <script src="/javascript/github.js"></script>
+    <script src="/javascript/main.js"></script>
 </head>
 <body>
     <div style="text-align: center;">
-        <h1 class="style">Calculate</h1>
-        <input type="text" id="firstone" name="firstone" class="normaltext"><br><br>
-        <input type="text" id="lastone" name="lastone" class="normaltext"><br><br>
-        <button onclick="calculate()"  style="cursor: pointer;"class="normaltext">Calculate result</button>
-        <!-- Output -->
-        <p class="normalbold" id="rootout">Root: </p>
-        <p class="normalbold" id="powerout">Power: </p>
-        <p class="normalbold" id="hcf">HCF: </p>
-        <p class="normalbold" id="lcm">LCM: </p>
-
-        <!-- WARNING -->
-        <br>
-        <br>
-        <br>    
-        <h3 class="normalbold">THIS SITE ISNT FINISHED SO THE HCF CAN CRASH SOMETIMES, report any bugs in the github</h3>
+        <div class="Buttons, h1, inputbox">
+            <h1 class="style">Calculate</h1>
+            <div>
+                <input type="text" id="firstone" name="firstone" class="normaltext"><br><br>
+                <input type="text" id="lastone" name="lastone" class="normaltext"><br><br>
+            </div>
+            <button onclick="calculate()"  style="cursor: pointer;"class="normaltext">Calculate result</button>
+        </div>
+        <div class="Output">
+            <!-- Output -->
+            <p class="normalbold" id="rootout">Root: </p>
+            <p class="normalbold" id="powerout">Power: </p>
+            <p class="normalbold" id="hcf">HCF: </p>
+            <p class="normalbold" id="lcm">LCM: </p>
+        </div>
+        <div class="Dev Warn">
+            <!-- WARNING -->
+            <br>
+            <br>
+            <br>    
+            <h3 class="normalbold">THIS SITE ISNT FINISHED SO THE HCF CAN CRASH SOMETIMES, report any bugs in the github</h3>
+        </div>
     </div>
     <div class="BottomLeft"><p class="normaltext" onclick="oldsite()" style="cursor: pointer;"><u>Old Site</u></p></div>
     <div class="BottomRight"><img src="/images/github.png" alt="Github" class="imagesize" onclick="github()"></div>
-    <script src="/javascript/github.js"></script>
-    <script src="/javascript/main.js"></script>
 </body>
 </html>
